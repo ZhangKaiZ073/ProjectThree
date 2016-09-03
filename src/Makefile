@@ -8,18 +8,15 @@ str = $(wildcard *.c)
 #将str目录下的所有.c 文件转换成.o给obj
 obj = $(patsubst %.c, $(src))
 
-ALL:../log.out
+ALL:../exec_fdfs.out
 
 #生成所有的.o文件
-../log.out:fastdfs_client_test01.c make_log.c
+../exec_fdfs.out:fastdfs_client_test01.c make_log.c
 	$(CC) $^ -o $@ $(CPPFLAGS) $(CFLAGS)
 
 #clean 
 
 clean:
-	-rm -rf $(obj) 
-
-distclean:
-	-rm -rf $(obj)
+	-rm -rf ../exec_fdfs.out
 
 .PHONY: clean ALL distclean

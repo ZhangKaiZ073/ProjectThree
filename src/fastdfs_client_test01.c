@@ -13,8 +13,8 @@
 
 int main(int argc,char **argv)
 {
-    if (argc < 2) {
-        printf("./a.out ...");
+    if (argc < 3) {
+        printf("./a.out ...\n");
     }
 
     int pid[2];
@@ -30,8 +30,28 @@ int main(int argc,char **argv)
     fd = fork();
     if (fd < 0) {
 
+        ret = -1;
+        LOG(_FILE_NAME_, "main()", "[error] fork() %d", ret);
     }
     else if (fd == 0) {
+
+        close(pid[0]);
+        dup2(pid[1], STDOUT_FILENO);
+        if (argc == 3) {
+            execlp(argv[1], argv[1], argv[2], NULL);
+        }
+        else if (argc == 4) {
+            execlp(argv[1], argv[1], argv[2], argv[3], NULL);
+        }
+        ret = -1;
+        LOG(_FILE_NAME_, "main()", "[error] execlp() %d", ret);
+    }
+    else {
+        close(pid[1]);
+        wait(NULL);
+        char buf[1024] = { 0 };
+        read(pid[0], buf, sizeof(buf));
+        printf("%s", buf);
     }
 
 END:
