@@ -1,0 +1,10 @@
+===20160905-154312,rop_connectdb[467]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160905-154314,Rop_GetValue[43]=== [+][GMS_REDIS]Get database 1195282416 SUCCESS!
+
+===20160905-154314,rop_disconnect[572]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
+===20160905-154316,rop_connectdb[467]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160905-154317,Rop_GetValue[43]=== [+][GMS_REDIS]Get database -1344279936 SUCCESS!
+

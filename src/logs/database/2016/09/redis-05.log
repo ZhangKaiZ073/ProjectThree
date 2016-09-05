@@ -1,0 +1,20 @@
+===20160905-154446,rop_connectdb[467]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160905-154449,Rop_GetValue[32]=== Get database k error! 
+
+===20160905-154449,rop_disconnect[572]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
+===20160905-154656,rop_connectdb[467]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160905-154658,Rop_GetValue[32]=== Get database lla error! 
+
+===20160905-154658,rop_disconnect[572]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
+===20160905-155700,rop_connectdb[501]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160905-155710,Rop_SetValue[82]=== [+][GMS_REDIS]Get database llo 123456 SUCCESS!
+
+===20160905-155713,Rop_GetValue[43]=== [+][GMS_REDIS]Get database -459399440 SUCCESS!
+
+===20160905-155713,rop_disconnect[606]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
