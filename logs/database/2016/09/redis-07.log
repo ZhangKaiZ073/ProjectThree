@@ -1,0 +1,20 @@
+===20160907-162847,rop_connectdb_nopwd[450]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160907-162847,Seve_redis[110]=== Hset database filename 账号密码.txt group1/M00/00/00/wKgViVfPz7-AN1gIAAAAyrTDfJ8400.txt
+ error! 
+
+===20160907-162847,rop_disconnect[606]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
+===20160907-162847,INFO[177]=== [error] Seve_redis() -1
+===20160907-163125,rop_connectdb_nopwd[450]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160907-163125,rop_disconnect[606]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
+===20160907-163802,rop_connectdb_nopwd[450]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160907-163802,rop_disconnect[606]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
+===20160907-164018,rop_connectdb_nopwd[450]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160907-164018,rop_disconnect[606]=== [+][GMS_REDIS]Disconnect SUCCESS!
+

@@ -21,7 +21,7 @@ demo:
 demo:./src/fcgi_test01.c
 	$(CC) $^ -o $@ -lfcgi $(CFLAG)
 
-upload:./src/upload_test01.c ./src/make_log.c
+upload:./src/upload_test01.c ./src/make_log.c ./src/redis_op.c 
 	gcc $^ -o $@ -lfcgi $(CFIAG) $(INC) $(LIB)
 
 clean:
